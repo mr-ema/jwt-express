@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  main
+    form(role='form' method='post' class='form-session')
+      h1 Sign In
+      input(class='input-field' type='text', placeholder='name' name='name')
+      input(class='input-field' type='email', placeholder='email' name='email')
+      input(class='input-field' type='password', placeholder='password' name='password')
+      button(class='button' type="submit", name="send") Send

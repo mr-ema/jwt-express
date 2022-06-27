@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/main.css')
+    link(rel='stylesheet', href='/css/utils.css')
+  body
+    header
+      nav(class='nav-bar')
+        ul  
+          li
+            a(href='/') Home
+          li
+            a(href='/login') LogIn
+          li
+            a(href='/signin') SignIn
+          li
+            a(href='/status') Status
+          
+    block content

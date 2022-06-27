@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  main
+    if login
+      form(role='form' method='post' class='form-session' autocomplete='off')
+        button(class='button' type="submit", name="send") Log Out
+    else
+      form(role='form' method='post' class='form-session' autocomplete='off')
+        h1 Log In
+        input(class='input-field' type='email', placeholder='email' name='email')
+        input(class='input-field' type='password', placeholder='password' name='password')
+        button(class='button' type="submit", name="send") Send
