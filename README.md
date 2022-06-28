@@ -1,4 +1,4 @@
-# JWT-DEMO WITH EXPRESS
+# JWT-DEMO
 
 - A simple express app with authentication
 ## Run Locally
