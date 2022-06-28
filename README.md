@@ -1,6 +1,6 @@
-# JWT DEMO-EXPRESS
+# JWT-DEMO WITH EXPRESS
 
-- A simple express app with aunthentication
+- A simple express app with authentication
 ## Run Locally
 
 ```bash
