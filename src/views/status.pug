@@ -2,4 +2,6 @@ extends layout
 
 block content
   main
-    h1= status
+    h1(class='m-2')= status
+    h2(class='m-1') User_id: #{user.user_id}
+    h2(class='m-1') Email: #{user.email}
