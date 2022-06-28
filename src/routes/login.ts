@@ -53,7 +53,7 @@ router.post('/', async (req: Request, res: Response) => {
     let options = {
       path:"/",
       sameSite:true,
-      maxAge: 1000 * 60 * 60 * 24, // would expire after 24 hours
+      maxAge: 1000 * 60 * 60 * 2, // would expire after 2 hours
       httpOnly: true, // The cookie only accessible by the web server
     }
 
